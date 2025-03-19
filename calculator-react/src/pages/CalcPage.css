@@ -1,0 +1,80 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222;
+    text-align: center;
+}
+
+.calc-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: stretch; /* Gør boksene lige høje */
+}
+
+.calc-container {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.calc {
+    width: 300px;
+}
+
+.calc-display {
+    width: 100%;
+    height: 60px;
+    background: black;
+    color: lime;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.calc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.memory-box {
+    width: 220px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid #444;
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Justerer højden dynamisk */
+    max-height: 100%; /* Sikrer, at den ikke bliver højere end calc-container */
+}
+
+.memory-box ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; /* Udvider listen så den tilpasser sig */
+    overflow-y: auto;
+    margin: 0; /* Fjerner eventuelle marginer */
+}
+
+.memory-box li {
+    font-size: 14px;
+    padding: 8px;
+    color: #333;
+    border-bottom: none; /* Fjerner stregerne under hvert input */
+}

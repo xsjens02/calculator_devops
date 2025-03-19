@@ -1,0 +1,5 @@
+CREATE TABLE tblCalculations (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    expression VARCHAR(150) NOT NULL,
+    result VARCHAR(150) NOT NULL
+);

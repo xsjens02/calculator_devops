@@ -36,7 +36,7 @@ The CI/CD pipeline is structured into three main stages:
 
 ### 🛠️ **----- Tech Stack -----**
 
-- **Backend:** REST API (Node.js/Express)
+- **Backend:** REST API (ASP.NET)
     
 - **Frontend:** React Client
     

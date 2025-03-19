@@ -1,6 +1,6 @@
 Calculator_DevOps
 
-![Image](https://github.com/user-attachments/assets/ea96d3ff-2c6d-4df6-8591-393919bf1022)
+![Image](https://github.com/user-attachments/assets/c3483634-dd3c-4b31-bdf5-9ae56ab9710c)
 
 🚀 Live Demo
 
@@ -15,43 +15,43 @@ The CI/CD pipeline is structured into three main stages:
 
 1️⃣ ----- Code Integration & Quality Assurance -----
 
-    Automated code integration to ensure stability and correctness.
+- Automated code integration to ensure stability and correctness.
     
-    Unit tests, code coverage, and mutation testing.
+- Unit tests, code coverage, and mutation testing.
     
-    Static code analysis using SonarQube.
+- Static code analysis using SonarQube.
 
 
 2️⃣ ----- Automated Deployment to Staging -----
 
-    The full application is deployed to a staging server.
+- The full application is deployed to a staging server.
     
-    Database migrations are handled using Flyway, ensuring version control and automatic setup of required tables.
+- Database migrations are handled using Flyway, ensuring version control and automatic setup of required tables.
 
 
 3️⃣ ----- Testing & Performance Assurance -----
 
-    End-to-end testing using TestCafe.
+- End-to-end testing using TestCafe.
     
-    Load testing with K6 to ensure performance under stress.
+- Load testing with K6 to ensure performance under stress.
 
 
 🛠️ ----- Tech Stack -----
 
-    Backend: REST API (Node.js/Express)
+- **Backend:** REST API (Node.js/Express)
     
-    Frontend: React Client
+- **Frontend:** React Client
     
-    Database: MariaDB
+- **Database:** MariaDB
 
 
 📌 ----- Features -----
 
 This project implements a calculator with two modes:
 
-    Simple Calculator – Executes calculations without caching.
+- **Simple Calculator** – Executes calculations without caching.
     
-    Cached Calculator – Stores previous calculations to improve performance.
+- **Cached Calculator** – Stores previous calculations to improve performance.
 
 
 Both calculators support:

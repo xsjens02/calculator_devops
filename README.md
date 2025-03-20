@@ -54,8 +54,8 @@ This project implements a calculator with two modes:
 
 Both calculators support:
 
-✔️ Basic arithmetic operations (+, -, *, /)
+- ✔️ Basic arithmetic operations (+, -, *, /)
 
-✔️ Prime number checking
+- ✔️ Prime number checking
 
-✔️ Factorial calculations
+- ✔️ Factorial calculations

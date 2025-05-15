@@ -2,9 +2,6 @@
 
 ![Image](https://github.com/user-attachments/assets/c3483634-dd3c-4b31-bdf5-9ae56ab9710c)
 
-[Visit the Staging Server](http://79.76.48.213:3000)
-
-
 
 This is a school project focused on DevOps and CI/CD pipelines.
 

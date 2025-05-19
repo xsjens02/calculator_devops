@@ -13,7 +13,7 @@ services:
     ports:
       - "${DB_PORT}:3306"
     healthcheck:
-      test: [ "CMD", "mariadb-admin", "ping", "-h", "localhost" ]
+      test: [ "CMD-SHELL", "mysqladmin ping -h localhost -u root -p$${MYSQL_ROOT_PWD}" ]
       interval: 10s
       timeout: 5s
       retries: 5
